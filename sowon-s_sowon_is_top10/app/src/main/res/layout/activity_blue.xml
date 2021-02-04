@@ -7,6 +7,13 @@
     android:background="#799EB9"
     tools:context=".BlueActivity">
 
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="350dp"
