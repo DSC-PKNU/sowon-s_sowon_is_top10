@@ -38,7 +38,6 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
                     "유튜브에서 웃음 참기 영상 보기",
                     "낮이라면 나가서 햇빛 보기",
                     "1분 스트레칭",
-
             };
 
     public MissionPageFragment() {
@@ -66,10 +65,7 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
 
@@ -97,7 +93,7 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
     @Override
 
     public void onClick(View v){
-        Intent resultIntent = new Intent(getActivity(), BlueResultActivity.class);
+        Intent resultIntent = new Intent(getActivity(), MainActivity.class);
         startActivity(resultIntent);
     }
 
