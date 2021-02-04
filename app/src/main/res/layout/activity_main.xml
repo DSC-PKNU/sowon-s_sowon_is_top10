@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapoflowerisland"
+        android:gravity="center_horizontal"
+        android:text="오늘 하루는 어떠셨나요?"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <Button
+        android:id="@+id/how_to_use"
+        android:onClick="onButtonClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/mapoflowerisland"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/write_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WRITE"
+        android:fontFamily="@font/mapoflowerisland"
+        android:textSize="30dp"
+        android:background="#00ff0000"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="119dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/mapoflowerisland"
+        android:text="LIST"
+        android:background="#00ff0000"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="384dp"
+        android:layout_height="471dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/growing_tree"
+        tools:layout_editor_absoluteY="71dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
