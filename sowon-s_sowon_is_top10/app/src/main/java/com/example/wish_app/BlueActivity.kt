@@ -3,7 +3,9 @@ package com.example.wish_app
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class BlueActivity : AppCompatActivity() {
@@ -23,7 +25,14 @@ class BlueActivity : AppCompatActivity() {
         Caterpillars_image.setOnClickListener{
             //val intent = Intent(this, MissionPageFragment::class.java)
             //startActivity(intent)
+
+            Caterpillars_image.visibility= View.INVISIBLE
+            findViewById<ImageView>(R.id.imageView).visibility= View.INVISIBLE
+            findViewById<TextView>(R.id.textView1).visibility= View.INVISIBLE
+            findViewById<TextView>(R.id.textView2).visibility= View.INVISIBLE
+
             changeFragment(MissionPageFragment())
+
         }
     }
 }
