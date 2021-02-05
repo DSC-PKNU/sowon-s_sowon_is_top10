@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TreeDiary</string>
+    <string name="design">Designed and Developed by:</string>
+    <string name="Dname1">Miliyon A.</string>
+    <string name="Dname2">Berket T.</string>
+    <string name="copy">\u00A9 Programing Training</string>
+    <string name="edtdiary">Name</string>
+    <string name="edttitle">Name</string>
+    <string name="Search">Name</string>
+    <string name="Title">Title</string>
+    <string name="attach">Name</string>
+    <string name="save">Name</string>
+    <string name="Howwasyourday">Name</string>
+    <string name="text_edit">Name</string>
+    <string name="text_share">Name</string>
+    <string name="text_delete">Name</string>
+    <string name="title_activity_list_of_diary">ListOfDiary</string>
+    <string name="title_activity_listof">ListofActivity</string>
+    <string name="title_activity_listof_diary">ListofDiary</string>
+</resources>

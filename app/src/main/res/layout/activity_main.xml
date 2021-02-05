@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="end"
+        android:background="#00ff0000"
+        android:fontFamily="@font/mapoflowerisland"
+        android:foreground="@drawable/question_button"
+        android:onClick="onButtonClicked"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/tree1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/mapoflowerisland"
+        android:gravity="center_horizontal"
+        android:text="오늘 하루는 어떠셨나요?"
+        android:textSize="35dp" />
+
+
+    <Button
+        android:id="@+id/write_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00ff0000"
+        android:fontFamily="@font/mapoflowerisland"
+        android:onClick="writeButton"
+        android:text="WRITE"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/mapoflowerisland"
+        android:onClick="listButton"
+        android:text="LIST"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>

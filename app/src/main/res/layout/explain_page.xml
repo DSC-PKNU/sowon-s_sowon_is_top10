@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".explain_page">
+
+    <TextView
+        android:id="@+id/main_text1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/mapoflowerisland"
+        android:text="감정을 기록하고\n당신의 나무를 키워보세요"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/sprout"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/sprout" />
+
+    <TextView
+        android:id="@+id/spout_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/mapoflowerisland"
+        android:text="큰 나무로 성장할 수 있는 \n새싹을 받으셨습니다."
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/growing"
+        android:layout_width="117dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/growing" />
+
+    <TextView
+        android:id="@+id/tree_explain"
+        android:fontFamily="@font/mapoflowerisland"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="당신의 새싹이 성장할 수 있게끔\n감정을 기록해주세요"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/tree_img"
+        android:layout_width="285dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/tree" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:foreground="@drawable/next1_button"
+        android:onClick="ClickButton1" />
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".explain_page2">
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="28dp"
+        android:layout_height="22dp"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:foreground="@drawable/no_button"
+        android:onClick="home_button" />
+
+    <TextView
+        android:id="@+id/main_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/mapoflowerisland"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="감정을 기록하고\n당신의 나무를 키워보세요"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/apple_tree"
+        android:layout_width="227dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/tree1" />
+
+    <TextView
+        android:id="@+id/explain_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapoflowerisland"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:text="당신의 감정을 따라 나무가 성장합니다."
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/tree"
+        android:layout_width="233dp"
+        android:layout_height="236dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/tree" />
+
+    <TextView
+        android:id="@+id/explain_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/mapoflowerisland"
+        android:gravity="center_horizontal"
+        android:text="때론 작은 미션도 수행하여\n나무의 성장을 도와주세요"
+        android:textSize="20dp" />
+
+</LinearLayout>
