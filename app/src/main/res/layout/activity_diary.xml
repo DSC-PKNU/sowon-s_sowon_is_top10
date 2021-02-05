@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFF3CD"
+        android:orientation="vertical"
+        tools:context=".CreateNewDiary">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvwCreatedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFF3CD"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#5E5E5E"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="94dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00ff0000"
+                    android:foreground="@drawable/happy"
+                    android:text="happy" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00ff0000"
+                    android:foreground="@drawable/sad"
+                    android:text="sad" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00ff0000"
+                    android:foreground="@drawable/love"
+                    android:text="love" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00ff0000"
+                    android:foreground="@drawable/ang"
+                    android:text="angry" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Name"
+                android:gravity="start|top"
+                android:hint="오늘의 제목을 지어주세요"
+                android:background="#EFF3CD"
+                android:inputType="textAutoCorrect"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtdiary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="Name"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="오늘은 어떤 날을 보내셨나요?:)"
+                android:inputType="textMultiLine"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

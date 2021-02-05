@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#EFF3CD"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            tools:ignore="Suspicious0dp"
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#EFF3CD"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvwDiaryCreatedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E4EAAE"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    app:srcCompat="@drawable/ang"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E4EAAE" />
+
+                <TextView
+                    android:id="@+id/tvwDiaryTitle"
+                    android:layout_width="255dp"
+                    android:layout_height="match_parent"
+                    android:background="#E4EAAE"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvwDiaryContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E4EAAE"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#EFF3CD"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnEdit"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="#EFF3CD"
+                android:contentDescription="@string/text_edit" />
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#EFF3CD"
+                android:contentDescription="@string/text_delete" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

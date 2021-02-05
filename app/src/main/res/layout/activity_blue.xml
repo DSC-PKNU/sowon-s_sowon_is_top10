@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#005170"
+    android:background="#14485C"
     tools:context=".BlueActivity">
 
     <FrameLayout
@@ -57,13 +57,13 @@
 
     <ImageView
         android:id="@+id/Caterpillars"
-        android:layout_width="60dp"
-        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="180dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/bug" />
+        app:srcCompat="@drawable/worm" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

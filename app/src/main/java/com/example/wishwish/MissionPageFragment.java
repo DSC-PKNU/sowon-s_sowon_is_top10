@@ -1,4 +1,5 @@
-package com.example.wish_app;
+package com.example.wishwish;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -69,7 +70,6 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
 
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -81,7 +81,7 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
         textview_title.setText(Html.fromHtml(mission));
 
         textview_mission= (TextView)view.findViewById(R.id.mission);
-        int r = (int)(Math.random()*6);
+        int r = (int)(Math.random()*3);
         textview_mission.setText (missions[r]);
 
         Button okay_button = (Button)view.findViewById(R.id.button_okay);
@@ -98,7 +98,4 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
         startActivity(resultIntent);
     }
 
-
-    }
-
-
+}

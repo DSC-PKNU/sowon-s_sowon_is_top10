@@ -1,4 +1,4 @@
-package com.example.wish_app
+package com.example.wishwish
 
 import org.junit.Test
 

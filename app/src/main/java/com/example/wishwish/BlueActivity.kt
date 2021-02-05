@@ -1,6 +1,5 @@
-package com.example.wish_app
+package com.example.wishwish
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
