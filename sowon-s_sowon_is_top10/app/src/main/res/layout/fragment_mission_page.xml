@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#046A91"
+    tools:context=".MissionPageFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="#FFF3DC"
+        tools:context=".MissionPageFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mission_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="serif"
+                android:text="MISSION"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/kopubbatangmedium"
+                android:text="미션을 수행하고 벌레를 퇴치하세요"
+                android:textAlignment="center"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/mission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="150dp"
+                android:fontFamily="@font/kopubbatangmedium"
+                android:lineSpacingExtra="18sp"
+                android:text="좋아하는 노래 한 곡 듣기"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_okay"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/kopubatangbold"
+                android:onClick="onClick"
+                android:text="OKAY"
+                android:textColor="#BF323232"
+                android:textColorHighlight="@android:color/secondary_text_dark"
+                android:textSize="30sp"
+                app:backgroundTint="#00FFFFFF"
+                app:strokeColor="#090909"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>
