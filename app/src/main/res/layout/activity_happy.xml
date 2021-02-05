@@ -4,26 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5EA9C"
+    android:background="#F3F2DA"
     tools:context=".HappyActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
-        app:srcCompat="@drawable/tree" />
+        app:srcCompat="@drawable/apple_tree" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="나무가 자라나고 있습니다"
+        android:fontFamily="@font/kopubatangbold"
+        android:text="나무가 무럭무럭 \n자라나고 있습니다 \n\n 오늘 하루도 수고한 당신을 위해\n사과를 선물할게요!"
+        android:textAlignment="center"
+        android:textColor="#4E8D7C"
         android:textSize="20sp"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
