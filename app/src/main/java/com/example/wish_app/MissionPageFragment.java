@@ -33,10 +33,10 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
     private String mParam2;
 
     String[] missions =
-            {       "좋아하는 노래 \n한 곡 듣기",
-                    "달콤한 초콜릿 \n하나 먹기",
-                    "유튜브에서 \n웃음 참기 영상 보기",
-                    "낮이라면 \n나가서 햇빛 보기",
+            {       "좋아하는 노래\n한 곡 듣기",
+                    "달콤한 초콜릿\n하나 먹기",
+                    "유튜브에서\n웃음 참기 영상 보기",
+                    "낮이라면\n나가서 햇빛 보기",
                     "1분 스트레칭",
                     "거울 보고 웃기",
             };
