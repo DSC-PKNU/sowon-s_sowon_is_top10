@@ -18,7 +18,7 @@ import android.widget.TextView;
  * Use the {@link MissionPageFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MissionPageFragment extends Fragment implements View.OnClickListener {
+public class MissionPageFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -85,17 +85,23 @@ public class MissionPageFragment extends Fragment implements View.OnClickListene
         textview_mission.setText (missions[r]);
 
         Button okay_button = (Button)view.findViewById(R.id.button_okay);
-        okay_button.setOnClickListener(this);
+
+
+        okay_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+                Intent resultIntent = new Intent(getActivity(), MainActivity.class);
+                startActivity(resultIntent);
+                onDestroy();
+            }
+        });
+
+
 
         return inflater.inflate(R.layout.fragment_mission_page, container, false);
 
     }
 
-    @Override
-
-    public void onClick(View v){
-        Intent resultIntent = new Intent(getActivity(), MainActivity.class);
-        startActivity(resultIntent);
-    }
 
 }
