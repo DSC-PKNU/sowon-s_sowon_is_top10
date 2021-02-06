@@ -10,6 +10,13 @@
 <img width="384" alt="explain" src="https://user-images.githubusercontent.com/73399212/107112194-09e1a580-6899-11eb-8915-f72709b1cb7e.png">
 <img width="384" alt="explain2" src="https://user-images.githubusercontent.com/73399212/107112229-604ee400-6899-11eb-802c-968a4191f9ea.png">
 
+[Memo Page]
+
+<img width="327" alt="memo" src="https://user-images.githubusercontent.com/73399212/107112379-85902200-689a-11eb-94eb-7e91b2e254d4.png">
+
+오늘의 감정을 기록해보세요!
+
+
 [Happy Page]
 
 <img width="289" alt="apple" src="https://user-images.githubusercontent.com/73399212/107112317-16b2c900-689a-11eb-90c6-d36cc4dc6dbf.png">
