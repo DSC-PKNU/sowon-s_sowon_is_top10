@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wish_app.iml" filepath="$PROJECT_DIR$/.idea/modules/wish_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/wish_app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/wish_app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wishwish.iml" filepath="$PROJECT_DIR$/.idea/modules/wishwish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/wishwish.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/wishwish.app.iml" />
     </modules>
   </component>
 </project>

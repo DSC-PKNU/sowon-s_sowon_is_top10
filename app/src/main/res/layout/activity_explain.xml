@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4EAAE"
+    android:background="#FFFDEF"
     android:orientation="vertical"
     tools:context=".ExplainActivity">
 
@@ -105,9 +105,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:layout_marginBottom="30dp"
                             android:fontFamily="@font/mapoflowerisland"
                             android:gravity="center_horizontal"
-                            android:layout_marginBottom="30dp"
                             android:text="때론 작은 미션도 수행하여\n나무의 성장을 도와주세요"
                             android:textSize="20dp" />
 
