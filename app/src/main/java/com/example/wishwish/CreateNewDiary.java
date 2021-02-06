@@ -2,6 +2,7 @@ package com.example.wishwish;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.icu.text.SimpleDateFormat;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -55,38 +56,38 @@ public class CreateNewDiary extends AppCompatActivity {
         bt.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                bt.setVisibility(View.VISIBLE);
-                bt2.setVisibility(View.INVISIBLE);
-                bt3.setVisibility(View.INVISIBLE);
-                bt4.setVisibility(View.INVISIBLE);
+                bt.setBackgroundColor(Color.WHITE);
+                bt2.setBackgroundColor(Color.TRANSPARENT);
+                bt3.setBackgroundColor(Color.TRANSPARENT);
+                bt4.setBackgroundColor(Color.TRANSPARENT);
             }
         });
         bt2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                bt.setVisibility(View.INVISIBLE);
-                bt2.setVisibility(View.VISIBLE);
-                bt3.setVisibility(View.INVISIBLE);
-                bt4.setVisibility(View.INVISIBLE);
+                bt.setBackgroundColor(Color.TRANSPARENT);
+                bt2.setBackgroundColor(Color.WHITE);
+                bt3.setBackgroundColor(Color.TRANSPARENT);
+                bt4.setBackgroundColor(Color.TRANSPARENT);
 
             }
         });
         bt3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                bt.setVisibility(View.INVISIBLE);
-                bt2.setVisibility(View.INVISIBLE);
-                bt3.setVisibility(View.VISIBLE);
-                bt4.setVisibility(View.INVISIBLE);
+                bt.setBackgroundColor(Color.TRANSPARENT);
+                bt2.setBackgroundColor(Color.TRANSPARENT);
+                bt3.setBackgroundColor(Color.WHITE);
+                bt4.setBackgroundColor(Color.TRANSPARENT);
             }
         });
         bt4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                bt.setVisibility(View.INVISIBLE);
-                bt2.setVisibility(View.INVISIBLE);
-                bt3.setVisibility(View.INVISIBLE);
-                bt4.setVisibility(View.VISIBLE);
+                bt.setBackgroundColor(Color.TRANSPARENT);
+                bt2.setBackgroundColor(Color.TRANSPARENT);
+                bt3.setBackgroundColor(Color.TRANSPARENT);
+                bt4.setBackgroundColor(Color.WHITE);
             }
         });
 
